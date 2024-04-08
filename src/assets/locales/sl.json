@@ -57,6 +57,8 @@
       },
       "host": "Povezujete se z <0>{{hostname}}</0> - pred ustvarjanjem računa potrdite, da mu zaupate",
       "no": "Nazaj",
+      "noHost": "Strežnik ni nastavljen, zato ustvarjanje profila ni mogoče",
+      "noHostTitle": "Strežnik ni nastavljen!",
       "title": "Ali zaupate temu strežniku?",
       "yes": "Zaupam strežniku"
     },
@@ -153,7 +155,8 @@
     "types": {
       "movie": "Film",
       "show": "Serija"
-    }
+    },
+    "unreleased": "Neizdano"
   },
   "navigation": {
     "banner": {
@@ -292,6 +295,7 @@
         "title": "Kvaliteta"
       },
       "settings": {
+        "audioItem": "Zvok",
         "downloadItem": "Prenesi",
         "enableSubtitles": "Vklopi podnapise",
         "experienceSection": "Izkušnje ogleda",
@@ -318,8 +322,9 @@
         "unknownOption": "Neznano"
       },
       "subtitles": {
-        "customChoice": "Izberi podnapise iz datoteke",
+        "customChoice": "Povleci in naloži datoteko",
         "customizeLabel": "Prilagodi",
+        "dropSubtitleFile": "Povleci datoteko s podnapisi tukaj",
         "offChoice": "Off",
         "settings": {
           "backlink": "Podnapisi po meri",
@@ -377,6 +382,13 @@
       "title": "Ni uspelo predvajati videoposnetka!"
     },
     "scraping": {
+      "extensionFailure": {
+        "badge": "Razširitev brskalnika je onemogočena",
+        "enableExtension": "Vklopi razširitev brskalnika",
+        "homeButton": "Pojdi domov",
+        "text": "Namestili ste razširitev movie-web. Če jo želite začeti uporabljati, morate razširitev omogočiti za to spletno mesto.",
+        "title": "Prosim vklopite razširitev brskalnika"
+      },
       "items": {
         "failure": "Zgodila se je napaka",
         "notFound": "Nima videoposnetka",
@@ -534,6 +546,7 @@
       }
     },
     "subtitles": {
+      "backgroundBlurLabel": "Zameglitev ozadja",
       "backgroundLabel": "Motnost ozadja",
       "colorLabel": "Barva",
       "previewQuote": "Ne smem se bati. Strah je ubijalec misli.",

@@ -57,6 +57,8 @@
       },
       "host": "您正在连接到 <0>{{hostname}}</0> - 在创建账户前，确保您信任它",
       "no": "返回",
+      "noHost": "服务器尚未进行配置，因此您无法创建账户",
+      "noHostTitle": "未配置服务器！",
       "title": "您是否信任这个服务器？",
       "yes": "我信任这个服务器"
     },
@@ -153,7 +155,8 @@
     "types": {
       "movie": "电影",
       "show": "电视节目"
-    }
+    },
+    "unreleased": "未发布"
   },
   "navigation": {
     "banner": {
@@ -292,6 +295,7 @@
         "title": "质量"
       },
       "settings": {
+        "audioItem": "音频",
         "downloadItem": "下载",
         "enableSubtitles": "启用字幕",
         "experienceSection": "观看体验",
@@ -318,8 +322,9 @@
         "unknownOption": "未知"
       },
       "subtitles": {
-        "customChoice": "从文件选取字幕",
+        "customChoice": "拖入或上传文件",
         "customizeLabel": "自定义",
+        "dropSubtitleFile": "将字幕拖入这里",
         "offChoice": "关闭",
         "settings": {
           "backlink": "自定义字幕",
@@ -377,6 +382,13 @@
       "title": "视频播放失败！"
     },
     "scraping": {
+      "extensionFailure": {
+        "badge": "扩展程序已禁用",
+        "enableExtension": "启用扩展程序",
+        "homeButton": "返回首页",
+        "text": "您已经安装 movie-web 扩展程序。要开始使用，您需要为此站点启用扩展。",
+        "title": "请启用扩展程序"
+      },
       "items": {
         "failure": "发生了错误",
         "notFound": "没有视频",
@@ -534,6 +546,7 @@
       }
     },
     "subtitles": {
+      "backgroundBlurLabel": "背景模糊",
       "backgroundLabel": "背景不透明度",
       "colorLabel": "颜色",
       "previewQuote": "我不能害怕。恐惧是心灵的杀手。",
